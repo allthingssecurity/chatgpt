@@ -1,0 +1,24 @@
+{
+  "name": "My Plugin",
+  "version": "1.0",
+  "manifest_version":2 ,
+  "content_scripts": [
+    {
+      //"matches": ["<all_urls>"],
+	  "matches": ["https://stackoverflow.com/*"],
+      "js": ["myscript.js"],
+	  "run_at": "document_idle"
+    }
+  ],
+  
+  
+  "permissions": [
+        "http://127.0.0.1:3000/send-message"
+    ]
+
+
+}
+
+
+
+
