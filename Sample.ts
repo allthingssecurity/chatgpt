@@ -1,13 +1,12 @@
 
 import { oraPromise } from 'ora'
 import { spawn } from 'child_process'
-import { ChatGPTAPI } from '../src'
 import express from 'express'
 
 import cors from 'cors'
 const process = require("process")
 require("dotenv").config()
-//import whatsAppClient from "@green-api/whatsapp-api-client";
+
 import { ChatGPTAPIBrowser } from 'chatgpt'
 
 
