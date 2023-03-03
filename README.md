@@ -7,6 +7,8 @@ Install the chatgpt module using this command
 npm install chatgpt
 
 Install other needed dependencies like ora,dotenv
+
+
 npm i ora
 
 npm i dotnenv
